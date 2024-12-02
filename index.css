@@ -1,0 +1,99 @@
+body {
+    background: rgb(63,251,75);
+    background: linear-gradient(90deg, rgba(63,251,75,0.9724264705882353) 29%, rgba(63,246,84,1) 29%, rgba(70,162,252,1) 100%);
+    background-size: 100%;  
+    font-family: "Josefin Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 30px;
+    font-style: normal;
+    transition: 5s;
+}
+
+main {
+    background-color: rgba(255, 255, 255, 0);
+    height: 600px;
+    width: 600px;
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.imgp {
+    height: 300px;
+    margin-bottom: 30px;
+}
+
+.mainbtn {
+    background-color: rgba(255, 255, 255, 0.61);
+    height: 70px;
+    width: 300px;
+    margin-top: 30px;
+    border: 1px solid white;
+    border-radius: 20px;
+}
+
+.mainbtn:hover {
+    background-color: rgba(255, 255, 255, 0.692);
+    color: black;
+}
+
+#medias {
+    margin-top: 50px;
+}
+
+.mediasbt {
+    background-color: rgba(240, 248, 255, 0);
+    border: none;
+    height: 30px;
+}
+
+.themebt {
+    height: 30px;
+    width: 60px;
+    margin-top: 20px;
+}
+
+a {
+    text-decoration: none;
+    font-size: 20px;
+    color: rgba(0, 0, 0, 0.719);
+}
+
+.imgm {
+    height: 40px;
+}
+
+#trilho {
+    height: 40px;
+    width: 90px;
+    background-color: rgba(0, 0, 0, 0.555);
+    border-radius: 20px;
+    position: relative;
+    left: 42%;
+}
+
+#trilho #indicador {
+    height: 40px;
+    width: 40px;
+    background-color: white;
+    border-radius: 50%;
+    transform: scale(.9);
+    position: absolute;
+    left: 0;
+    transition: .5s;
+}
+
+#trilho.dark #indicador {
+    left: 50px;
+}
+
+body.dark {
+    background: rgb(19,204,196);
+    background: linear-gradient(90deg, rgba(19,204,196,0.9416141456582633) 0%, rgba(46,132,214,1) 36%, rgba(0,212,255,1) 100%);
+}
+
+.imgp.dark{
+    height: 1000000000px;
+}
